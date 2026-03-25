@@ -40,7 +40,7 @@ async function book() {
 }
 
 async function loadBookings() {
-    const res = await fetch("/bookings");
+    const res = await fetch("https://salon-app-1g4p.onrender.com/bookings")
     const data = await res.json();
 
     list.innerHTML = data.map(b =>
@@ -48,7 +48,7 @@ async function loadBookings() {
     ).join("");
 }
 async function login() {
-    const res = await fetch("/login", {
+    const res = await fetch("https://salon-app-1g4p.onrender.com/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

@@ -1,4 +1,26 @@
 {
-    "users": [],
-    "bookings": []
+  "users": [
+    {
+      "id": "36dc130b-2905-42dd-a0a5-002d20492208",
+      "username": "shmagi",
+      "password": "Deliko12$"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "4a510198-c8fe-49a3-9221-f4fc317b0f94",
+      "service": "ფრჩხილი",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "28c08e58-5798-4e1b-89d8-390f421cce6d",
+      "service": "ფრჩხილი",
+      "date": "2026-06-26"
+    },
+    {
+      "id": "8dc66689-b480-4c14-bb87-c4ff39ce1c19",
+      "service": "ფრჩხილი",
+      "date": "2026-06-26"
+    }
+  ]
 }
